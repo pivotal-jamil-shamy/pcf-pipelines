@@ -38,7 +38,7 @@ variable "nat_instance_type" {
 }
 variable "db_instance_type" {
     description = "Instance Type for RDS instance"
-    default = "db.m3.large"
+    default = "db.t2.small"
 }
 
 variable "vpc_cidr" {
